@@ -10,6 +10,10 @@ public class Main {
         paulsPhone.callPhone(123456);
         paulsPhone.anser();
 
+        paulsPhone=new MobilePhone(12345);
+        paulsPhone.powerOn();
+        paulsPhone.callPhone(12345);
 
+        paulsPhone.anser();
     }
 }
